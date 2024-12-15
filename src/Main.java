@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-
+        String[][] config = { {"valor1", "valor2"}, {"valor3", "valor4"} };
+        int XTEST = 0; int CAMB = 1;
         for(int i=100; i<=130; i=i+2){
             //System.out.println("Hola: " + i);
         }
@@ -20,6 +21,7 @@ public class Main {
                 System.out.println("\t: valor " + j);
             }
         }
+        System.out.println(config[XTEST][CAMB]);
     }
 }
 /*
